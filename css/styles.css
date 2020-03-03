@@ -1,0 +1,36 @@
+.container img{
+    width: 280px;
+    height: 320px;
+}
+img{
+    padding: 10px;
+}
+
+.fiction #fiction{
+    font-size: 40px;
+    text-align: center;
+}
+
+.genre, a{
+    padding-left: 40px;
+}
+
+.romance #romance{
+    font-size: 40px;
+    text-align: center;
+}
+
+.detective #detective{
+    font-size: 40px;
+    text-align: center;
+}
+
+.mystery #mystery{
+    font-size: 40px;
+    text-align: center;
+}
+
+#dilemma{
+    font-size: 40px;
+    text-align: center;
+}
