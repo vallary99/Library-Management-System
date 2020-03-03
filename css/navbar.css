@@ -71,12 +71,11 @@ body{
 }
    
 .nav-bar-links a{
-    padding-left: 50px;
-    display: inline-block;
-    list-style: none;
+    padding-left: 60px;
     text-decoration: none;
     color:white;
     transition: opacity, 2s linear;
+    font-size: 30px;
 }
 
 
@@ -84,6 +83,7 @@ body{
     opacity: 0.5;
     cursor: pointer;
     transition: opacity, 2s linear;
+    color: silver;
 }
 
 
