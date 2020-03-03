@@ -34,3 +34,56 @@ img{
     font-size: 40px;
     text-align: center;
 }
+/* import */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+body{
+    font-family: 'Varela Round', ;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+/* home */
+#home{
+    width: auto;
+    height: 800px;
+    background-image: url(../images/books-2596809_1920.jpg);
+    background-size: cover;
+}
+/* search */
+.search{
+    top: 50%; 
+    left: 50px; 
+    box-sizing: border-box; 
+    color: white;
+    background: transparent;
+    margin: 0;
+    width: 1000px;
+    position: absolute; 
+    padding-left: 20%; 
+    text-align: center;
+}
+/* navbar */
+ ul>li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-family:'Varela Round' ;
+}
+   
+.nav-bar-links a{
+    padding-left: 50px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    transition: opacity, 2s linear;
+}
+
+
+.nav-bar-links a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity, 2s linear;
+}
+
+
