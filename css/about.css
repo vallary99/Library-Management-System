@@ -1,4 +1,7 @@
 /* ############ About Us ############## */
+body{
+    background-color:#D6D1D0 ;
+}
 .jumbotron{
     background-image: url();
 }
@@ -60,6 +63,7 @@ input .placeholder{
 .card>img{
     height: 400PX;
     widows: 300px;
+    
 }
 #image{
     height: 400px;
