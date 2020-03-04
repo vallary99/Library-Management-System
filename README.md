@@ -1,6 +1,6 @@
 #Library Management System
 
-## Moodys Pizzeria (https://aenshtyn.github.io/Moddys-Pizza/)
+## Library Management System (https://vallary99.github.io/Library-Management-System/)
 
 This is Delani Studios website. Showing a bit of their work
 
@@ -34,7 +34,7 @@ jQuery
 
 ## Support and contact details
 
-If you have any issues or questions you can contact vallery at 
+If you have any issues or questions you can contact vallery at
 
 ### License
 
