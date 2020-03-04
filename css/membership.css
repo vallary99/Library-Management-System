@@ -1,9 +1,40 @@
+/* import */
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 body{
     font-family: Varela Round ;
 } 
-.member {
+/* navbar */
+#home {
+    position: fixed;
+}
+ ul>li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-family:'Varela Round';
+}
+   
+.nav-bar-links a{
+    padding-left: 60px;
+    text-decoration: none;
+    color:black;
+    transition: opacity, 2s linear;
+    font-size: 30px;
+}
+
+
+.nav-bar-links a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity, 2s linear;
+    color: silver;
+}
+
+
+
+.jumbotron{
     background-image: url(../images/membercover.jpg);
+    background-size: cover;
 }   
 h1 {
     text-align: center;
