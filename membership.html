@@ -44,16 +44,67 @@
     <div class=freeMember>
         <div class="container">
             <div class="row">
-                <div class="col-md-4" id="gold">
-                    <h2>Gold</h2>
-                    <p> Benefits of this plan </p>
-                    <ul>
+                <div class="col-md-6" id="gold">
+                    <div class="head-gold"><h2>Gold</h2></div>
+                    <p> Click on plan head for form.<br>Benefits of this plan </p>
+                    <ol>
                         <li>30 books per month</li>
                         <li>common room</li>
                         <li>Wi-Fi is available</li>
                         <li>Access to the common computer</li>
-                    </ul>
+                    </ol>
+                    <div class="form-gold">
+                        <div class="form-group" >
+                        <label for="full name">Full Name:</label>
+                        <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name..">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email.."> 
+                    </div>
+                    <button type="submit" class="btn btn-default">Sign-in </button>
+                </div>
+                    </div>
+                  
+                <div class="col-md-6" id="silver">
+                    <div class="head-silver"><h2>Silver</h2></div>
+                    <p>Benefits of this plan</p>
+                    <ol>
+                        <li>50 Books per month</li>
+                        <li>Common room with a maximum of 15 people</li>
+                        <li>Wi-Fi is available</li>
+                        <li>Access to the computer in the room</li>
+                        <li>Water is provided</li>
+                    </ol>
+                    <div class="form-silver">
+                    <div class="form-group">
+                        <label for="full name">Full Name:</label>
+                        <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name..">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email.."> 
+                    </div>
+                    <button type="submit" class="btn">Sign-in </button>
+                </div>
+                    </div>
                     
+                </div>
+            </div>
+        </div><br><br>
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-6" id="platinum">
+                    <div class="head-platinum"><h2>Platinum</h2></div>
+                    <p>Benefits of this plan</p>
+                    <ol>
+                        <li>100 books per month</li>
+                        <li>Private Room</li>
+                        <li>Wi-Fi is available</li>
+                        <li>Personal computer in the room</li>
+                        <li>Water and beverages are provided</li>
+                    </ol>
+                    <div class="form-platinum">
                     <div class="form-group">
                         <label for="full name">Full Name:</label>
                         <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name..">
@@ -64,33 +115,17 @@
                     </div>
                     <button type="submit" class="btn btn-default">Sign-in </button>
                 </div>
-                <div class="col-md-4" id="silver">
-                    <h2>Silver</h2>
-                    <p>Benefits of this plan</p>
-                    <ul>
-                        <li>50 Books per month</li>
-                        <li>Common room with a maximum of 15 people</li>
-                        <li>Wi-Fi is available</li>
-                        <li>Access to the computer in the room</li>
-                        <li>Water is provided</li>
-                    </ul>
-                </div>
-                <div class="col-md-4" id="platinum">
-                    <h2>Platinum</h2>
-                    <p>Benefits of this plan</p>
-                    <ul>
-                        <li>100 books per month</li>
-                        <li>Private Room</li>
-                        <li>Wi-Fi is available</li>
-                        <li>Personal computer in the room</li>
-                        <li>Water and beverages are provided</li>
-                    </ul>
+            </div>
+                    
                 </div>
             </div>
-        </div>
+        </div>   
+        
+        
     </div>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/membership.js"></script>
 </body>
 
 </html>

@@ -4,9 +4,8 @@ body{
     font-family: Varela Round ;
 } 
 /* navbar */
-#home {
-    position: fixed;
-}
+
+
  ul>li{
     display: inline-block;
     text-align: right;
@@ -43,12 +42,26 @@ h1 {
 .explain{
     text-align: center;
 }
+.form-gold {
+    display: none;
+}
+.form-silver {
+    display: none;
+}
+.form-platinum{
+    display: none;  
+}
 #gold {
-    background-color:#aaa;
+    background-color:#aaa; 
+    height: 450px;
 }
 #silver{
     background-color:#bbb;
 }
 #platinum{
     background-color:#ccc;
+    height: 450px;
+}
+.freemember {
+    width:100%;
 }
