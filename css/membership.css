@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+body{
+    font-family: Varela Round ;
+} 
+.member {
+    background-image: url(../images/membercover.jpg);
+}   
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+.explain{
+    text-align: center;
+}
+#gold {
+    background-color:#aaa;
+}
+#silver{
+    background-color:#bbb;
+}
+#platinum{
+    background-color:#ccc;
+}
