@@ -1,0 +1,106 @@
+.container img{
+    width: 130px;
+    height: 180px;
+}
+
+img{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.nav-bar-links #genre a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:white;
+    transition: opacity, 2s linear;
+    font-size: 30px;
+}
+
+.nav-bar-links #genre a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity, 2s linear;
+    color: silver;
+}
+
+.fiction #fiction{
+    font-size: 40px;
+    text-align: center;
+}
+
+.genre, a{
+    padding-left: 40px;
+}
+
+.romance #romance{
+    font-size: 40px;
+    text-align: center;
+}
+
+.detective #detective{
+    font-size: 40px;
+    text-align: center;
+}
+
+.mystery #mystery{
+    font-size: 40px;
+    text-align: center;
+}
+
+#dilemma{
+    font-size: 40px;
+    text-align: center;
+}
+
+#true-story{
+    font-size: 40px;
+    text-align: center;
+}
+
+#drama{
+    font-size: 40px;
+    text-align: center;
+}
+
+#comics{
+    font-size: 40px;
+    text-align: center;
+}
+
+.foot{
+    background-color: black;
+}
+
+.genre img{
+    display: inline;
+} 
+
+/* navbar */
+.nav-bar-links{
+    background-color: rgb(0, 0, 7);
+}
+
+ul>li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-family:'Varela Round' ;
+}
+   
+.nav-bar-links #nav a{
+    padding-left: 50px;
+    text-decoration: none;
+    color:white;
+    transition: opacity, 2s linear;
+    font-size: 100px;
+}
+
+.nav-bar-links #nav a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity, 2s linear;
+    color: silver;
+}
+
+
+

@@ -1,48 +1,6 @@
-<<<<<<< HEAD
-=======
-/* ########## books ######## */
-body{
-    text-decoration: none;
-}
->>>>>>> 9827eb54a70d3a7abca0e6ecde64f6742e05a12d
-.container img{
-    width: 280px;
-    height: 320px;
-}
-img{
-    padding: 10px;
-}
+/* ########## books ########*/
 
-.fiction #fiction{
-    font-size: 40px;
-    text-align: center;
-}
 
-.genre, a{
-    padding-left: 40px;
-}
-
-.romance #romance{
-    font-size: 40px;
-    text-align: center;
-}
-
-.detective #detective{
-    font-size: 40px;
-    text-align: center;
-}
-
-.mystery #mystery{
-    font-size: 40px;
-    text-align: center;
-}
-
-#dilemma{
-    font-size: 40px;
-    text-align: center;
-}
-<<<<<<< HEAD
-=======
 
 
 
@@ -176,4 +134,3 @@ input .placeholder{
 
 
 
->>>>>>> 9827eb54a70d3a7abca0e6ecde64f6742e05a12d
