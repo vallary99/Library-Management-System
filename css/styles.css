@@ -55,6 +55,7 @@ body{
     height: 800px;
     background-image: url(../images/books-2596809_1920.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 /* search */
 .search{
@@ -64,8 +65,8 @@ body{
     color: white;
     background: transparent;
     margin: 0;
-    width: 1000px;
-    position: absolute; 
+    width: auto;
+    position: relative; 
     padding-left: 20%; 
     text-align: center;
 }
@@ -76,20 +77,36 @@ body{
     text-decoration: none;
     font-family:'Varela Round' ;
 }
-   
-.nav-bar-links a{
+.nav-item{
+    padding-left: 20px;
+}
+.navbar-nav{
+    cursor: pointer;
+    transition: opacity, 2s In · Cubic;
+    color: white;
+    align-items: center;
+    opacity: 1.5;
+    font-size: 20px;
+}
+.navbar-toggler{
+    align-items: center;
+}
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color:white;
+}
+/* .navbar-link a{
     padding-left: 60px;
     text-decoration: none;
     color:white;
     transition: opacity, 2s linear;
-    font-size: 30px;
-}
+    font-size: 50px;
+} */
 
-.nav-bar-links a:hover{
+/* .navbar-link a:hover{
     opacity: 0.5;
     cursor: pointer;
     transition: opacity, 2s linear;
-    color: silver;
-}
-
-
+    color: white;
+    align-items: center;
+} */
