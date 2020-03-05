@@ -39,7 +39,7 @@
     </div>
     <div class="explain">
         <p>You can be able to aquire a plan with our library.You will chose the plan that is most
-            confortable with you.<br>Welcome as you strat your journey with us</p>
+            confortable with you.<br>Welcome as you start your journey with us</p>
     </div>
     <div class=freeMember>
         <div class="container">
@@ -53,7 +53,7 @@
                         <li>Wi-Fi is available</li>
                         <li>Access to the common computer</li>
                     </ol>
-                    <div class="form-gold">
+                    <div class="form-gold" onclick="validate()" method="POST">
                         <div class="form-group" >
                         <label for="full name">Full Name:</label>
                         <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name.." required>
@@ -80,7 +80,7 @@
                                 <label for="pasw2">Password repeat:</label>
                                 <input type="pasw2" class="form-control" id="pasw2" name="password" placeholder="Enter password....">
                             </div>
-                            <button type="submit" class="submit4"><a href=index.html></a>Log in</button>
+                            <button type="submit" class="submit4" id="myBtn">Log in</button>
                           </div>
                     </div>
                   
@@ -103,13 +103,13 @@
                         <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email2" name="email" placeholder="Enter your email.."> 
                     </div>
-                    <button type="submit" class="submit2">Sign-in </button>
+                    <button type="submit" class="submit2" id="myBtn2">Sign-in </button>
                 </div>
                     </div> 
                 </div>
-                <div id="myModal" class="modal2">
+                <div id="myModal2" class="modal2">
                     <div class="modal-content">
-                        <span class="close">&times;</span>
+                        <span class="close2">&times;</span>
                         <div class="form-group">
                             <label for="name">Enter Name:</label>
                             <input type="firstname" class="form-control" id="firstname1" name="firstname" placeholder="Enter name..." required>
@@ -122,7 +122,7 @@
                             <label for="pasw4">Password repeat:</label>
                             <input type="pasw4" class="form-control" id="pasw4" name="password" placeholder="Enter password....">
                         </div>
-                        <button type="submit" class="submit5"><a href=index.html></a>Log in</button>
+                        <button type="submit" class="submit5" >Log in</button>
                       </div>
                 </div>
             </div>
@@ -148,7 +148,25 @@
                         <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email3" name="email" placeholder="Enter your email.." required> 
                     </div>
-                    <button type="submit" class="submit3">Sign-in </button>
+                    <button type="submit" class="submit3" id="myBtn3">Sign-in </button>
+                </div>
+                <div id="myModal3" class="modal3">
+                    <div class="modal-content">
+                        <span class="close3">&times;</span>
+                        <div class="form-group">
+                            <label for="name">Enter Name:</label>
+                            <input type="firstname" class="form-control" id="firstname2" name="firstname" placeholder="Enter name..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pasw3">Password:</label>
+                            <input type="pasw3" class="form-control" id="pasw5" name="password" placeholder="Enter password....">
+                        </div>
+                        <div class="form-group">
+                            <label for="pasw4">Password repeat:</label>
+                            <input type="pasw4" class="form-control" id="pasw6" name="password" placeholder="Enter password....">
+                        </div>
+                        <button type="submit" class="submit5" >Log in</button>
+                      </div>
                 </div>
                 <div class="col-md-6">
 
