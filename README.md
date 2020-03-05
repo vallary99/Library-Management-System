@@ -6,11 +6,11 @@ This projects connects readers and libraries and should help in booking, orderin
 
 #### By
 
-Vallary
-Reuben
-Daniella
-Paul
-Moha
+1. Vallary
+2. Reuben
+3. Daniella
+4. Paul
+5. Moha
 
 ## Description
 
@@ -18,11 +18,14 @@ This website helps readers find books in the library. They also get to see which
 
 ## Setup/Installation Requirements
 
-This is a webpage and has no setup Requirements once uploaded to the site.
+- Clone the repo and every file is available.
 
 ## Known Bugs
 
-Still at the stage of linking the navbar in all sites
+* On clicking the books they arent as responsive as they should be
+* the search area should autocomplete
+* On the work with us page, the link to mailchimp API hasnt been completed
+
 
 
 ## Technologies Used
@@ -34,7 +37,7 @@ jQuery
 
 ## Support and contact details
 
-If you have any issues or questions you can contact vallery at
+If you have any issues or questions you can contact Vallary at vallaryotieno990@gmail.com
 
 ### License
 
