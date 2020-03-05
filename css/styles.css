@@ -1,3 +1,7 @@
+/* ########## books ######## */
+body{
+    text-decoration: none;
+}
 .container img{
     width: 280px;
     height: 320px;
@@ -100,13 +104,210 @@ body{
     text-decoration: none;
     color:white;
     transition: opacity, 2s linear;
-    font-size: 50px;
-} */
+    font-size: 30px;
+}
 
-/* .navbar-link a:hover{
+
+.nav-bar-links a:hover{
     opacity: 0.5;
     cursor: pointer;
     transition: opacity, 2s linear;
-    color: white;
-    align-items: center;
+    color: silver;
+}
+
+/* ############ About Us ############## */
+.jumbotron{
+    background-image: url();
+}
+.container{
+    font-family: 'Varela Round';
+}
+h2{
+    text-align: center;
+    font-family:'Varela Round' ;
+}
+h1{
+    text-align: center;
+    font-family:'Varela Round' ;
+}
+.abouts{
+    text-align: center;
+}
+.height-60{
+    min-height: 60vh;
+}
+#contact .card{
+    background: rgba();
+    transition: all 2s ease;
+}
+#contact .card:hover{
+    background: rgba();
+}
+#container .card-header{
+    color: brown;
+}
+#contact .input-group-text{
+    background: violet;
+    border-color: violet;
+    color: #242424;
+}
+#contact .card input{
+    color: #660066;
+}
+#contact .card intput::placeholder{
+    color: #660066;
+}
+.contact-btn{
+    color:  violet;
+    border-color: violet;
+    background: transparent;
+    transition: all 2s ease-in-out;
+    font-family:'Varela Round' ;
+}
+.contact-btn:hover{
+    background: #c9c1ac;
+    color: violet;
+    border-color: #c9c1ac;
+}
+input .placeholder{
+    font-family:'Varela Round' ;
+
+}
+
+
+
+
+
+/* work with us */
+/* import */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+#wwu {
+  font-family: 'Varela Round', ;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  background-color: grey;
+}
+
+
+.container{
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+.contcontainer {
+  border-radius: 5px;
+  padding: 5%;
+}
+.nav-bar-links{
+  color: #daa520;
+}
+/* Body */
+#delani1 {
+font-family: 'Comfortaa';
+font-size: 18px;
+line-height: 3;
+  align-items: center;
+}
+
+.contact {
+background-image: url('../images/backgrounds/c_image.jpg');
+text-align: center;
+color: black;
+padding: 5rem;
+text-transform: capitalize;
+}
+/* Footer */
+
+.footer {
+text-align: center;
+padding: 2rem;
+}
+
+.socials {
+padding: 2rem;
+}
+.social {
+width: 2rem;
+margin: 1rem;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  background: transparent;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+}
+
+
+/* Style the container/contact section */
+.contcontainer {
+  border-radius: 5px;
+  padding: 5%;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+::placeholder {
+  color :black;
+}
+
+* {
+  box-sizing: border-box;
 } */
+
+.textbody {
+background-image: url('../images/backgrounds/wwuback.jpg');
+}
+
+
+
+/* Work with us */
