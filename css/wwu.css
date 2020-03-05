@@ -47,10 +47,11 @@ line-height: 3;
   width: 100%;
 }
 }
+.nav{
+  color: black;
+}
 
 
-
-/* Contact */
 .contact {
 background-image: url('../images/backgrounds/c_image.jpg');
 text-align: center;
@@ -143,3 +144,7 @@ input[type=text], select, textarea {
 * {
   box-sizing: border-box;
 } */
+
+.textbody {
+background-image: url('../images/backgrounds/wwuback.jpg');
+}
