@@ -66,12 +66,13 @@ body{
     top: 50%; 
     left: 50px; 
     box-sizing: border-box; 
+    box-sizing: border-box;
     color: white;
     background: transparent;
     margin: 0;
     width: auto;
-    position: relative; 
-    padding-left: 20%; 
+    position: absolute;
+    padding-left: 20%;
     text-align: center;
 }
 /* navbar */
@@ -100,6 +101,7 @@ body{
     border-color:white;
 }
 /* .navbar-link a{
+.nav-bar-links a{
     padding-left: 60px;
     text-decoration: none;
     color:white;
@@ -173,9 +175,6 @@ input .placeholder{
     font-family:'Varela Round' ;
 
 }
-
-
-
 
 
 /* work with us */
