@@ -62,15 +62,26 @@ body{
 }
 /* search */
 .search{
+<<<<<<< HEAD
+    top: 50%; 
+    left: 50px; 
+    box-sizing: border-box; 
+=======
     top: 50%;
     left: 50px;
     box-sizing: border-box;
+>>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
     color: white;
     background: transparent;
     margin: 0;
     width: 1000px;
+<<<<<<< HEAD
+    position: absolute; 
+    padding-left: 20%; 
+=======
     position: absolute;
     padding-left: 20%;
+>>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
     text-align: center;
 }
 /* navbar */
@@ -80,7 +91,11 @@ body{
     text-decoration: none;
     font-family:'Varela Round' ;
 }
+<<<<<<< HEAD
+   
+=======
 
+>>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
 .nav-bar-links a{
     padding-left: 60px;
     text-decoration: none;
@@ -131,7 +146,11 @@ h1{
 #contact .input-group-text{
     background: violet;
     border-color: violet;
+<<<<<<< HEAD
+    color: #242424;  
+=======
     color: #242424;
+>>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
 }
 #contact .card input{
     color: #660066;
@@ -153,13 +172,31 @@ h1{
 }
 input .placeholder{
     font-family:'Varela Round' ;
+<<<<<<< HEAD
+    
+}
+ 
+=======
 
 }
+>>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
 
 
 
 
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+=======
 /* work with us */
 /* import */
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
@@ -316,3 +353,4 @@ Work with us
 
 
 /* Work with us */
+>>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
