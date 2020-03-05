@@ -30,10 +30,10 @@ This website helps readers find books in the library. They also get to see which
 
 ## Technologies Used
 
-CSS
-HTML
-JavaScript
-jQuery
+* CSS
+* HTML
+* JavaScript
+* jQuery
 
 ## Support and contact details
 
