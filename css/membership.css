@@ -28,9 +28,6 @@ body{
     transition: opacity, 2s linear;
     color: silver;
 }
-
-
-
 .jumbotron{
     background-image: url(../images/membercover.jpg);
     background-size: cover;
@@ -42,26 +39,73 @@ h1 {
 .explain{
     text-align: center;
 }
+.head-gold {
+    padding-top: 10px;
+}
 .form-gold {
     display: none;
 }
+.head-silver {
+    padding-top: 10px;
+}
 .form-silver {
     display: none;
+}
+.head-platinum {
+    padding-top: 10px;
 }
 .form-platinum{
     display: none;  
 }
 #gold {
-    background-color:#aaa; 
-    height: 450px;
+    background-image: url(../images/formgold.jpg);
+    height: 470px;
+    color: white;
 }
 #silver{
     background-color:#bbb;
+    height: 470px;
 }
 #platinum{
     background-color:#ccc;
-    height: 450px;
+    height: 470px;
 }
 .freemember {
     width:100%;
 }
+.modal {
+    /* display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    /* margin: auto; */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -56,19 +56,37 @@
                     <div class="form-gold">
                         <div class="form-group" >
                         <label for="full name">Full Name:</label>
-                        <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name..">
+                        <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name.." required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email.."> 
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email.." required> 
                     </div>
-                    <button type="submit" class="btn btn-default">Sign-in </button>
+                    <button type="submit" class="submit" id="myBtn">Sign-in </button>
                 </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="form-group">
+                                <label for="name">Enter Name:</label>
+                                <input type="firstname" class="form-control" id="firstname" name="firstname" placeholder="Enter name..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pasw">Password:</label>
+                                <input type="pasw" class="form-control" id="pasw" name="password" placeholder="Enter password....">
+                            </div>
+                            <div class="form-group">
+                                <label for="pasw2">Password repeat:</label>
+                                <input type="pasw2" class="form-control" id="pasw2" name="password" placeholder="Enter password....">
+                            </div>
+                            <button type="submit" class="submit4"><a href=index.html></a>Log in</button>
+                          </div>
                     </div>
                   
                 <div class="col-md-6" id="silver">
                     <div class="head-silver"><h2>Silver</h2></div>
-                    <p>Benefits of this plan</p>
+                    <p>Click on plan head for form.<br>Benefits of this plan</p>
                     <ol>
                         <li>50 Books per month</li>
                         <li>Common room with a maximum of 15 people</li>
@@ -79,16 +97,33 @@
                     <div class="form-silver">
                     <div class="form-group">
                         <label for="full name">Full Name:</label>
-                        <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name..">
+                        <input type="text" class="form-control" id="fname2" name="fname" placeholder="Enter your first name..">
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email.."> 
+                        <input type="email" class="form-control" id="email2" name="email" placeholder="Enter your email.."> 
                     </div>
-                    <button type="submit" class="btn">Sign-in </button>
+                    <button type="submit" class="submit2">Sign-in </button>
                 </div>
-                    </div>
-                    
+                    </div> 
+                </div>
+                <div id="myModal" class="modal2">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="form-group">
+                            <label for="name">Enter Name:</label>
+                            <input type="firstname" class="form-control" id="firstname1" name="firstname" placeholder="Enter name..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pasw3">Password:</label>
+                            <input type="pasw3" class="form-control" id="pasw3" name="password" placeholder="Enter password....">
+                        </div>
+                        <div class="form-group">
+                            <label for="pasw4">Password repeat:</label>
+                            <input type="pasw4" class="form-control" id="pasw4" name="password" placeholder="Enter password....">
+                        </div>
+                        <button type="submit" class="submit5"><a href=index.html></a>Log in</button>
+                      </div>
                 </div>
             </div>
         </div><br><br>
@@ -96,7 +131,7 @@
             <div class="row">
                 <div class="col-md-6" id="platinum">
                     <div class="head-platinum"><h2>Platinum</h2></div>
-                    <p>Benefits of this plan</p>
+                    <p>Click on plan head for form.<br>Benefits of this plan</p>
                     <ol>
                         <li>100 books per month</li>
                         <li>Private Room</li>
@@ -107,13 +142,16 @@
                     <div class="form-platinum">
                     <div class="form-group">
                         <label for="full name">Full Name:</label>
-                        <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name..">
+                        <input type="text" class="form-control" id="fname3" name="fname" placeholder="Enter your full name.." required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email.."> 
+                        <input type="email" class="form-control" id="email3" name="email" placeholder="Enter your email.." required> 
                     </div>
-                    <button type="submit" class="btn btn-default">Sign-in </button>
+                    <button type="submit" class="submit3">Sign-in </button>
+                </div>
+                <div class="col-md-6">
+
                 </div>
             </div>
                     
@@ -123,9 +161,17 @@
         
         
     </div>
+
+    <button id="myBtn">Open Modal</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+          </div>
+    </div>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/membership.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
