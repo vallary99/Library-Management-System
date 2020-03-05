@@ -59,29 +59,20 @@ body{
     height: 800px;
     background-image: url(../images/books-2596809_1920.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 /* search */
 .search{
-<<<<<<< HEAD
     top: 50%; 
     left: 50px; 
     box-sizing: border-box; 
-=======
-    top: 50%;
-    left: 50px;
     box-sizing: border-box;
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
     color: white;
     background: transparent;
     margin: 0;
-    width: 1000px;
-<<<<<<< HEAD
-    position: absolute; 
-    padding-left: 20%; 
-=======
+    width: auto;
     position: absolute;
     padding-left: 20%;
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
     text-align: center;
 }
 /* navbar */
@@ -91,11 +82,25 @@ body{
     text-decoration: none;
     font-family:'Varela Round' ;
 }
-<<<<<<< HEAD
-   
-=======
-
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
+.nav-item{
+    padding-left: 20px;
+}
+.navbar-nav{
+    cursor: pointer;
+    transition: opacity, 2s In · Cubic;
+    color: white;
+    align-items: center;
+    opacity: 1.5;
+    font-size: 20px;
+}
+.navbar-toggler{
+    align-items: center;
+}
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color:white;
+}
+/* .navbar-link a{
 .nav-bar-links a{
     padding-left: 60px;
     text-decoration: none;
@@ -146,11 +151,7 @@ h1{
 #contact .input-group-text{
     background: violet;
     border-color: violet;
-<<<<<<< HEAD
-    color: #242424;  
-=======
     color: #242424;
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
 }
 #contact .card input{
     color: #660066;
@@ -172,31 +173,10 @@ h1{
 }
 input .placeholder{
     font-family:'Varela Round' ;
-<<<<<<< HEAD
-    
-}
- 
-=======
 
 }
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
 
 
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-=======
 /* work with us */
 /* import */
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
@@ -208,15 +188,7 @@ input .placeholder{
   background-color: grey;
 }
 
-h2 {
 
-}
-h3{
-
-}
-p{
-
-}
 .container{
   text-align: center;
 }
@@ -240,17 +212,6 @@ font-size: 18px;
 line-height: 3;
   align-items: center;
 }
-
-/* / Responsive layout - makes the two columns stack on top of each other instead of next to each other */ */ */
-@media screen and (max-width: 600px) {
-.column {
-  width: 100%;
-}
-}
-.nav{
-  color: black;
-}
-
 
 .contact {
 background-image: url('../images/backgrounds/c_image.jpg');
@@ -333,10 +294,7 @@ input[type=text], select, textarea {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-.column, {
-    width: 100%;
-}
+
 ::placeholder {
   color :black;
 }
@@ -349,8 +307,6 @@ input[type=text], select, textarea {
 background-image: url('../images/backgrounds/wwuback.jpg');
 }
 
-Work with us
 
 
 /* Work with us */
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
