@@ -2,11 +2,11 @@
 
 ## Library Management System (https://vallary99.github.io/Library-Management-System/)
 
-This is Delani Studios website. Showing a bit of their work
+This projects connects readers and libraries and should help in booking, ordering and returning of books to the library.
 
 #### By
 
-Vallery
+Vallary
 Reuben
 Daniella
 Paul
