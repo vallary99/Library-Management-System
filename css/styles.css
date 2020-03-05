@@ -62,26 +62,20 @@ body{
 }
 /* search */
 .search{
-<<<<<<< HEAD
     top: 50%; 
     left: 50px; 
     box-sizing: border-box; 
-=======
     top: 50%;
     left: 50px;
     box-sizing: border-box;
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
     color: white;
     background: transparent;
     margin: 0;
     width: 1000px;
-<<<<<<< HEAD
     position: absolute; 
     padding-left: 20%; 
-=======
     position: absolute;
     padding-left: 20%;
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
     text-align: center;
 }
 /* navbar */
@@ -91,11 +85,8 @@ body{
     text-decoration: none;
     font-family:'Varela Round' ;
 }
-<<<<<<< HEAD
    
-=======
 
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
 .nav-bar-links a{
     padding-left: 60px;
     text-decoration: none;
@@ -146,11 +137,8 @@ h1{
 #contact .input-group-text{
     background: violet;
     border-color: violet;
-<<<<<<< HEAD
     color: #242424;  
-=======
     color: #242424;
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
 }
 #contact .card input{
     color: #660066;
@@ -172,31 +160,8 @@ h1{
 }
 input .placeholder{
     font-family:'Varela Round' ;
-<<<<<<< HEAD
     
 }
- 
-=======
-
-}
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
-
-
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-=======
 /* work with us */
 /* import */
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
@@ -208,15 +173,6 @@ input .placeholder{
   background-color: grey;
 }
 
-h2 {
-
-}
-h3{
-
-}
-p{
-
-}
 .container{
   text-align: center;
 }
@@ -242,11 +198,10 @@ line-height: 3;
 }
 
 /* / Responsive layout - makes the two columns stack on top of each other instead of next to each other */ */ */
-@media screen and (max-width: 600px) {
+{@media screen and (max-width: 600px) {
 .column {
   width: 100%;
-}
-}
+
 .nav{
   color: black;
 }
@@ -349,8 +304,182 @@ input[type=text], select, textarea {
 background-image: url('../images/backgrounds/wwuback.jpg');
 }
 
-Work with us
-
-
 /* Work with us */
->>>>>>> 72d93597203bd0e9c473ba321d934d7da0ee3182
+/*membership css*/
+/* import */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+body{
+    font-family: Varela Round ;
+} 
+/* navbar */
+
+
+ ul>li{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-family:'Varela Round';
+}
+   
+.nav-bar-links a{
+    padding-left: 60px;
+    text-decoration: none;
+    color:black;
+    transition: opacity, 2s linear;
+    font-size: 30px;
+}
+
+
+.nav-bar-links a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity, 2s linear;
+    color: silver;
+}
+.jumbotron{
+    background-image: url(../images/membercover.jpg);
+    background-size: cover;
+}   
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+.explain{
+    text-align: center;
+}
+.head-gold {
+    padding-top: 10px;
+}
+.form-gold {
+    display: none;
+}
+.head-silver {
+    padding-top: 10px;
+}
+.form-silver {
+    display: none;
+}
+.head-platinum {
+    padding-top: 10px;
+}
+.form-platinum{
+    display: none;  
+}
+#gold {
+    background-image: url(../images/formgold.jpg);
+    height: 470px;
+    color: white;
+}
+#silver{
+    background-color:#bbb;
+    height: 470px;
+}
+#platinum{
+    background-color:#ccc;
+    height: 470px;
+}
+.freemember {
+    width:100%;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 50%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+.modal-content {
+    background-color: #fefefe;
+    /* margin: auto; */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*silver modal*/
+  .modal2 {
+      float: right;
+      display: none;
+    position: fixed; 
+    padding-top: 100px; 
+    padding-right: 100px;
+    left: 0;
+    top: 0;
+    width: 50%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*platinum*/
+  .modal3 {
+    float: right;
+    display: none;
+  position: fixed; 
+  padding-top: 100px; 
+  padding-right: 100px;
+  left: 0;
+  top: 0;
+  width: 50%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
